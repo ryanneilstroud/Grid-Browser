@@ -11,6 +11,8 @@
 		624EC70D26B2FBFB0098A059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624EC70C26B2FBFB0098A059 /* ViewController.swift */; };
 		624EC70F26B2FBFC0098A059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624EC70E26B2FBFC0098A059 /* Assets.xcassets */; };
 		624EC71226B2FBFC0098A059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624EC71026B2FBFC0098A059 /* Main.storyboard */; };
+		624EC71C26B301DD0098A059 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624EC71A26B301DD0098A059 /* WindowController.swift */; };
+		624EC71D26B301DD0098A059 /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624EC71B26B301DD0098A059 /* WindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		624EC71126B2FBFC0098A059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		624EC71326B2FBFC0098A059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		624EC71426B2FBFC0098A059 /* Grid_Browser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grid_Browser.entitlements; sourceTree = "<group>"; };
+		624EC71A26B301DD0098A059 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		624EC71B26B301DD0098A059 /* WindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				624EC70C26B2FBFB0098A059 /* ViewController.swift */,
 				624EC70E26B2FBFC0098A059 /* Assets.xcassets */,
 				624EC71026B2FBFC0098A059 /* Main.storyboard */,
+				624EC71A26B301DD0098A059 /* WindowController.swift */,
+				624EC71B26B301DD0098A059 /* WindowController.xib */,
 				624EC71326B2FBFC0098A059 /* Info.plist */,
 				624EC71426B2FBFC0098A059 /* Grid_Browser.entitlements */,
 			);
@@ -121,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				624EC70F26B2FBFC0098A059 /* Assets.xcassets in Resources */,
+				624EC71D26B301DD0098A059 /* WindowController.xib in Resources */,
 				624EC71226B2FBFC0098A059 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				624EC70D26B2FBFB0098A059 /* ViewController.swift in Sources */,
+				624EC71C26B301DD0098A059 /* WindowController.swift in Sources */,
 				624EC70B26B2FBFB0098A059 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
